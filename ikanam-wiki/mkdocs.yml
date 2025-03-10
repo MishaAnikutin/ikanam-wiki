@@ -37,15 +37,14 @@ nav:
   - Главная: index.md
   - Курсы:
     - 1 курс:
-      - Математический анализ: courses/algorithms.md
-      - Линейная алгебра: courses/index.md
+      - Математический анализ: courses/1 курс/Математический_анализ/index.md
     - 2 курс:
-      - Введение в анализ данных: courses/index.md 
-  - Расписание: schedule.md
-  - Карьерка: career.md 
-  - Иканам гранд рисёрч: grand_research.md
-  - Ноутбуки:
-    - Анализ данных: notebooks/forecasting_with_monte_carlo.ipynb
+      - Введение в анализ данных:
+        - Главное: courses/2 курс/Введение_в_анализ_данных/index.md
+        - Введение в Python: courses/2 курс/Введение_в_анализ_данных/01-01 intro python.ipynb 
+  - Расписание: https://disk.yandex.ru/i/MrEFIgvqTSwIsg
+  - Допы: additional/index.md
+  - FAQ: faq/index.md
 plugins:
   - mkdocs-jupyter
   - search
