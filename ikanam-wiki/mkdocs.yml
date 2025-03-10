@@ -1,0 +1,51 @@
+site_name: Ikanam-Wiki
+repo_url: https://github.com/ikanam-ai
+
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+    - scheme: slate
+      primary: white
+      toggle:
+        icon: material/weather-night
+        name: Темная тема
+  features:
+    - navigation.footer
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - mdx_math
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Главная: index.md
+  - Курсы:
+    - 1 курс:
+      - Математический анализ: courses/algorithms.md
+      - Линейная алгебра: courses/index.md
+    - 2 курс:
+      - Введение в анализ данных: courses/index.md 
+  - Расписание: schedule.md
+  - Карьерка: career.md 
+  - Иканам гранд рисёрч: grand_research.md
+  - Ноутбуки:
+    - Анализ данных: notebooks/forecasting_with_monte_carlo.ipynb
+plugins:
+  - mkdocs-jupyter
+  - search
