@@ -66,5 +66,7 @@ target/
 venv/
 ENV/
 
+.idea/
+
 # MkDocs documentation
 site*/

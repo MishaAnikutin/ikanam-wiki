@@ -1,5 +1,6 @@
 site_name: Ikanam-Wiki
-repo_url: https://github.com/ikanam-ai
+repo_url: https://github.com/MishaAnikutin/ikanam-wiki
+site_url: https://MishaAnikutin.github.io
 
 theme:
   name: material
